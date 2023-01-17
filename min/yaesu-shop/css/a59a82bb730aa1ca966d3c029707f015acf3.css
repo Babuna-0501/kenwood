@@ -17339,10 +17339,10 @@ fieldset[disabled] .icons-danger.active {
 }
 
 .tab-v3 .nav-tabs>li.active>a {
-    color: #e85529;
+    color: #2F7075;
     position: relative;
     border-top-color: #fff;
-    border-bottom: 1px solid #e85529
+    border-bottom: 1px solid #2F7075;
 }
 
 .tab-v4 .nav-tabs {
@@ -22353,7 +22353,7 @@ button:focus {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    background-color: #e85529;
+    background-color: #2F7075;
     text-indent: -9999px;
     z-index: 999;
     border: 1px #FFF solid;
@@ -22416,7 +22416,7 @@ h1 {
     transition: 0.2s ease all;
     font-family: "FontAwesome";
     font-size: 40px;
-    color: #e85529;
+    color: #2F7075;
     line-height: 1
 }
 
@@ -22426,11 +22426,11 @@ h1 {
 }
 
 .owl-prev {
-    left: 0
+    left: 0;
 }
 
 .owl-prev:before {
-    content: '\f104'
+    content: '❮';
 }
 
 .owl-next {
@@ -22438,7 +22438,7 @@ h1 {
 }
 
 .owl-next:before {
-    content: '\f105'
+    content:'❯';
 }
 
 .mfilter-box .box-heading {
@@ -22888,9 +22888,9 @@ h1 {
     top: calc(50% - 20px)
 }
 
-.pagescarousel .owl-prev {
+/* .pagescarousel .owl-prev {
     left: 0
-}
+} */
 
 .pagescarousel .owl-stage {
     display: flex;
@@ -22947,7 +22947,7 @@ h1 {
     }
 
     .owl-prev {
-        left: -10px
+        left: -40px
     }
 
     .owl-prev,
